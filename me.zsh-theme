@@ -21,8 +21,8 @@ vcs_status() {
 }
 
 local ME_SYMBOL="%(?,%{$fg_bold[green]%}μ,%{$fg_bold[red]%}μ)"
-PROMPT='${ME_SYMBOL} \
+PROMPT='
+${ME_SYMBOL} \
 %{$fg_bold[white]%}%2~%{$reset_color%}\
 $(vcs_status) \
-%{$FG[015]%}❯%{$reset_color%}\
- '
+%{$FG[015]%}❯%{$reset_color%} '
