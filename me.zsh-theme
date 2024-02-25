@@ -1,6 +1,6 @@
 # μ (me)
 # by Max Claus Nunes
-# https://github.com/maxcnunes/me
+# https://github.com/maxcnunes/zsh-me
 # MIT License
 
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$reset_color%}%{$FG[245]%} "
@@ -25,4 +25,4 @@ PROMPT='
 ${ME_SYMBOL} \
 %{$fg_bold[white]%}%2~%{$reset_color%}\
 $(vcs_status) \
-%{$FG[015]%}❯%{$reset_color%} '
+%{$FG[015]%}%{$reset_color%} '
